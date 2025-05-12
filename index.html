@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Git</title>
+    <link rel="icon" href="/images/notebloom.jpg"></link>
+</head>
+<body>
+    <h3>EVERYDAY GIT</h3>
+  <p>Welcome to <strong>everday git,</strong> your daily dose of relatable content for you having any difficulty with anything related to git</p>
+
+<p>Having a hard time with <strong>Git?</strong> Don’t worry, your confusion ends here. Let’s figure it out together!</p>
+<hr>
+<h3>1.What is git?</h3>
+<figure>
+    <img src="/images/git.jpg" width="450px" height="500px">
+    <figcaption>Image of a round git ball</figcaption>
+</figure>
+
+<p>* Git is a <strong>free </strong>and <strong>open source</strong> distributed <strong>version control system</strong> designed to handle everything from small to very large projects with speed and efficiency.</p>
+<p>* Version control or source control, is the practice of tracking and managing changes to software code.This Version control systems are software tools that help software teams manage changes to source code over time.</p>
+<p>* Types of <strong>Version Control systems include:</strong></p>
+<ol type="i">
+    <li>Local Version Control Systems- Changes are tracked locally on a developer's machine</li>
+    <li>Centralized Version Control Systems -Developers check out the latest version from the repository, make changes, and then check in their changes. </li>
+    <li>Distributed Version Control Systems -Excellent for large teams and projects that require frequent branching and merging. </li>
+</ol>
+<p>*This are some of the <em>use-cases of Git:</em></p>
+<ul>
+    <li>Tracking Changes</li>
+    <li>Collaboration</li>
+    <li>Non-linear Development</li>
+    <li>Backup and Recovery</li>
+    <li>Project organization</li>
+</ul>
+
+<hr>
+    <h3>2.Setting up environment</h3>
+    <figure>
+        <img src="/images/Version.jpg" width="450px" height="500px">
+        <figcaption>Image of a computer with a version control</figcaption>
+    </figure>
+ <p>*An integrated development environment, put simply, is everything a programmer needs to get their work done.
+        This are like prerequisites for your machine</p>
+        <p>*Things you may need:</p>
+        <ul>
+            <li> command line</li>
+            <li>installed git- to download it go to the official<strong> </=> website</strong> </li>
+            <li>Github</li>   
+        </ul>
+       
+<hr>
+<h3>3. installing git</h3>
+    <figure>
+        <img src="/images/2.png" width="800px">
+        <figcaption>checking the version of the git</figcaption>
+    </figure>
+ <p>After downloading git from its official website,check the version it is and make sure its upto latest</p>
+
+ <hr>
+ <h3>4. configuring git</h3>
+ <figure>
+     <img src="/images/2.png" width="800px">
+     <figcaption>configuring necessary name and email</figcaption>
+ </figure>
+<p>This ensures that you get your email and username to your git</p>
+
+<hr>
+ <h3>5. initializing Repository</h3>
+ <figure>
+     <img src="/images/init.png" width="800px">
+     <figcaption>initiallizing repository</figcaption>
+ </figure>
+<p>*This ensures that for the commands to work this is the first step</p>
+
+
+<hr>
+ <h3>6.Adding files to the staging area</h3>
+ <figure>
+     <img src="/images/6.png" width="800px">
+     <figcaption>adding files to the staging area</figcaption>
+ </figure>
+<p>*Wondering what staging is -The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit</p>
+<p>*<strong> git add [filename] </strong> selects that file, and moves it to the staging area, marking it for inclusion in the next commit. You can select all files, a directory, specific files, or even specific parts of a file for staging and commit. </p>
+<p> *what is the difference between tracked and untracked files</p>
+<P>Tracked files are the files git knows about while untracked git knows nothing about them</P>
+
+<hr>
+ <h3>7.Commiting changes </h3>
+ <figure>
+     <img src="/images/7.png" width="800px">
+     <figcaption>commiting changes</figcaption>
+ </figure>
+<p>* use the <strong>Git Commit -m "message here"</strong></p>
+<p>*how does one write a good commit message you may ask, make sure there is a title and a description that is if you are using a commit editor</p>
+<p>*One principle i use is asking the question what does this commit do?</p>
+<figure>
+    <img src="/images/8.png" width="800px">
+    <figcaption>checking the commits activities</figcaption>
+</figure>
+
+
+<hr>
+ <h3>8. Branching</h3>
+<p>*A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. </p>
+<p>*You can think of them as a way to request a brand new working directory, staging area, and project history.</p>
+
+
+<hr>
+ <h3>9.Creating a branch</h3>
+ <figure>
+     <img src="/images/add a new branch.png" width="800px">
+     <figcaption>creating our first branch</figcaption>
+ </figure>
+<p>The git branch command can be used to create a new branch. When you want to start a new feature, you create a new branch off main using <strong>git branch new_branch</strong> .</p>
+
+<hr>
+ <h3>10. Viewing all branches</h3>
+ <figure>
+     <img src="/images/viewing all.png" width="800px">
+     <figcaption>viewing all of our branches</figcaption>
+ </figure>
+<p>we use the <strong>git branch feature</strong>
+    <p>How to know an active branch is when there is an asterisk and often times is green in color</p>
+
+    <hr>
+ <h3>11.Switching active branches</h3>
+ <figure>
+     <img src="/images/10.png" width="800px">
+     <figcaption>switching to active branches</figcaption>
+ </figure>
+
+<p>we use the <strong>git checkout (branch-name} </strong>
+    <p>This is to make sure that we change our current one to the one we prefer</p>
+
+<hr>
+    <h3>12. Merging branches</h3>
+ <figure>
+     <img src="/images/merge.png" width="800px">
+     <figcaption>merging branches</figcaption>
+ </figure>
+
+<p>we use the <strong>git merge (feature-name} </strong>
+    <p>To merge branches locally, use git checkout to switch to the branch you want to merge into. This branch is typically the main branch. Next, use git merge and specify the name of the other branch to bring into this branch.</p>
+<p>It will contain all the new files within the main branch</p>
+
+    <hr>
+    <h3>12. Deleting a branch branches</h3>
+    <figure>
+        <img src="/images/11.png" width="800px">
+        <figcaption>how to delete branches</figcaption>
+    </figure>
+   
+   <p>we use the <strong>git branch d (branch-name} </strong>
+       <p>Once a branch or is no longer needed, we use small d to delete and if it doesn't we use caps D to force delete</p>
+   
+       <hr> 
+<h3>Next steps</h3>
+<p>once you have understood the basics the next step is, This are my recommended steps</p>
+<ol>
+    <li>Explore more on github- check out how to clone on local repository to remote</li>
+    <li>understand the concept of stashing</li>
+    <li>understand forking</li>
+    <li>Get to learn about fetching</li>
+</ol>
+<p> Checkout this <a href="https://git-scm.com/">Resources</a></p>
+</body>
+</html>
