@@ -1,3 +1,36 @@
+/*styling the landing page*/
+.quiz {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(-45deg, #ff4d4d, #ffb84d, #33cc33, #3399ff, #a64dff);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+  position: relative;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#title{
+    font-size: 70px;
+    font-family: "Lobster", sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px;
+}
+.logo {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 /* styling the body */
 body {
     background-color: #b9b7b7af;
@@ -17,7 +50,7 @@ ul li, ol li {
 }
 
 /* paragraph styling */
-p {
+ p {
     font-family: 'Times New Roman';
     line-height: 30px;
     font-size: 20px;
