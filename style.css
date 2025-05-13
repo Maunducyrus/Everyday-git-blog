@@ -28,3 +28,28 @@ p {
     border-radius: 4px;
     padding: 3px 10px;
 }
+#git{
+    width: 80%;
+    height: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: block;
+}
+
+#ver{
+    width: 80%;
+    height: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(29, 29, 29, 0.2);
+    transition: transform 0.2s;
+    display: block;
+}
+
+#check{
+    width: 70%;
+    height: 130px;
+    border-radius: 4px;
+}
