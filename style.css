@@ -1,0 +1,30 @@
+/* styling the body */
+body {
+    background-color: #b9b7b7af;
+}
+/* list styling */
+ul, ol {
+    background-color: #aaa6a6;
+    border-left: 4px solid rgb(1, 87, 1);
+    padding: 3px 25px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+ul li, ol li {
+    margin-bottom: 8px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+/* paragraph styling */
+p {
+    font-family: 'Times New Roman';
+    line-height: 30px;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+    border-left: 4px solid red;
+    background-color: #dddada;
+    border-radius: 4px;
+    padding: 3px 10px;
+}
