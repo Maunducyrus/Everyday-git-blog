@@ -121,3 +121,14 @@ ul li, ol li {
     height: 130px;
     border-radius: 4px;
 }
+/*styling h3*/
+h3{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',  Geneva, Verdana, sans-serif;
+  color:brown;
+}
+/*styling h4*/
+h4{
+  font-family:system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+}
